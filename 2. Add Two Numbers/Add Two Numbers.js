@@ -10,30 +10,22 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-/** reverse
 var addTwoNumbers = function(l1, l2) {
-    let res = Math.floor(l1.reverse().join('')) + Math.floor(l2.reverse().join(''))
-    return `${res}`.split('').reverse()
-};
-*/
-/** noreverse
-var addTwoNumbers = function(l1, l2) {
-    l1 = [...l1].map(l1.pop,l1)
-    l2 = [...l2].map(l2.pop,l2)
-    let res = Math.floor(l1.join('')) + Math.floor(l2.join(''))
-    let _res = `${res}`.split('')
-    return [..._res].map(_res.pop,_res)
-};
- */
-
-// 上面两种网页上怎么都失败。很神奇
-var addTwoNumbers = function(l1, l2) {
-    let res = 0;
-    for (let i = l1.length - 1; i >= 0; i -- ){
-        res +=  Math.pow(10,i) * (l1[i]  + l2[i])
+    var sum=l1.val+l2.val;
+    var next1=l1.next;
+    var next2=l2.next;
+    var l3 = new ListNode(sum%10);//初始化l3
+    var node=l3;//更新node的同时更新l3
+    sum = Math.floor(sum/10);//进位，如果有的话
+    while(next1 || next2 || sum!==0){
+        //next1或者next2为空时补充为0
+        //当两个都为空且没有进位的时候的时候停止，有进位的话还需要补充一个进位
+        sum += (next1?next1.val:0)+(next2?next2.val:0);
+        node.next = new ListNode(sum%10);
+        node = node.next;
+        next1 = next1?next1.next:null;
+        next2 = next2?next2.next:null;
+        sum = Math.floor(sum/10);
     }
-    let _res = `${res}`.split('')
-    return [..._res].map(_res.pop,_res)
+    return l3;
 };
-
-console.log(addTwoNumbers([2,4,3],[5,6,4]))
