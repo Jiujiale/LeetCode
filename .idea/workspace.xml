@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5af2babc-2a0b-4eaf-ab86-c1810469234b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4. Median of Two Sorted Arrays/Median of Two Sorted Arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js" />
+    <list default="true" id="5af2babc-2a0b-4eaf-ab86-c1810469234b" name="Default" comment="4">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js" afterPath="$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Longest Palindromic Substring.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Longest Palindromic Substring.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="315">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -47,6 +57,7 @@
         <option value="$PROJECT_DIR$/1. Two Sum/Two Sum1.js" />
         <option value="$PROJECT_DIR$/4. Median of Two Sorted Arrays/Median of Two Sorted Arrays.js" />
         <option value="$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -118,11 +129,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Median of Two Sorted Arrays.js">
+  <component name="RunManager" selected="Node.js.Longest Palindromic Substring.js">
+    <configuration name="Longest Palindromic Substring.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Longest Palindromic Substring.js" working-dir="$PROJECT_DIR$/5. Longest Palindromic Substring" />
     <configuration name="Median of Two Sorted Arrays.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Median of Two Sorted Arrays.js" working-dir="$PROJECT_DIR$/4. Median of Two Sorted Arrays" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Median of Two Sorted Arrays.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Longest Palindromic Substring.js" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Median of Two Sorted Arrays.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Longest Palindromic Substring.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Median of Two Sorted Arrays.js" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +158,10 @@
       <updated>1524476287880</updated>
       <workItem from="1524476289213" duration="107000" />
       <workItem from="1524557705048" duration="863000" />
-      <workItem from="1524558904665" duration="1000" />
+      <workItem from="1524558904665" duration="80000" />
+      <workItem from="1524559573223" duration="1612000" />
+      <workItem from="1524624478278" duration="890000" />
+      <workItem from="1524663897466" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="删除重复">
       <created>1524557761377</created>
@@ -150,11 +170,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524557761377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4">
+      <created>1524558972539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524558972539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="971000" />
+    <option name="totallyTimeSpent" value="3924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="194" y="23" width="1578" height="1041" extended-state="0" />
@@ -187,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除重复" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除重复" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -202,19 +230,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. Two Sum/Two Sum1.js" />
-    <entry file="file://$PROJECT_DIR$/4. Median of Two Sorted Arrays/Median of Two Sorted Arrays.js">
+    <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/Two Sum1.js" />
+    <entry file="file://$PROJECT_DIR$/4. Median of Two Sorted Arrays/Median of Two Sorted Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring/Longest Palindromic Substring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
