@@ -2,22 +2,23 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function(s) {
-    let res = ''
-    let tempres = ''
-    let temp = ''
-    for(let i = 0; i < s.length; i ++){
-        temp = s.substring(i,s.length).split('').reverse().join('')
-        if (temp.indexOf(s[i]) > -1){
-            tempres = s.substring(i,s.length - temp.indexOf(s[i]))
-        }
-        if (tempres.length > res.length){
-            res = tempres
+var longestPalindrome = function (s) {
+    var max = '';
+    for (var i = 0; i < s.length; i++) {
+        for (var j = 0; j < 2; j++) {
+            var left = i;
+            var right = i + j;
+            while (s[left] && s[left] === s[right]) {
+                left--;
+                right++;
+            }
+            if ((right - left - 1) > max.length) {
+                max = s.substring(left + 1, right);
+            }
         }
     }
-    return res
+    return max;
 };
 
-console.log(longestPalindrome('babad'))
-console.log(longestPalindrome('cbbd'))
 console.log(longestPalindrome("abcda"))
+console.log(longestPalindrome("babad"))
